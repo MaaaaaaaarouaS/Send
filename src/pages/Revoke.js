@@ -29,7 +29,7 @@ class Revoke extends React.Component {
                                 </label>
                             </div>
                             <h1 class="rtitle">Your current multisender approval</h1>
-                            <span><a href="#" type="submit"></a></span>
+                            <span><a type="submit"></a></span>
                         </div>
                     </section>
                 </main>

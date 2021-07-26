@@ -15,21 +15,21 @@ class Verification extends React.Component {
                                 <input type="text" placeholder="select your token " />
                                 <button type="submit"><i class="icon ion-android-arrow-forward"></i></button>
                             </div><br />
-                            <div class="Recipients_info_2Qot1" data-v-404281ee=""><label class="_base-input_label_3kGwW" data-v-404281ee="">Yours TX's hashes</label><a class="ExampleCSV" href="#">Show Example CSV</a></div>
+                            <div class="Recipients_info_2Qot1" data-v-404281ee=""><label class="_base-input_label_3kGwW" data-v-404281ee="">Yours TX's hashes</label><a class="ExampleCSV">Show Example CSV</a></div>
                             <div class="demo-flex-spacer"></div>
                             <div class="webflow-style-input">
                                 <textarea rows="4"></textarea>
                                 <button type="submit"><i class="icon ion-android-arrow-forward"></i></button>
                             </div>
                             <div class="Recipients_info_2Qot1" data-v-404281ee=""><input class="CSV-file-input" type="file" /></div>
-                            <div class="Recipients_info_2Qot1" data-v-404281ee=""><label class="_base-input_label_3kGwW" data-v-404281ee="">Original list of recipients</label><a class="ExampleCSV" href="#">Show Example CSV</a></div>
+                            <div class="Recipients_info_2Qot1" data-v-404281ee=""><label class="_base-input_label_3kGwW" data-v-404281ee="">Original list of recipients</label><a class="ExampleCSV">Show Example CSV</a></div>
                             <div class="demo-flex-spacer"></div>
                             <div class="webflow-style-input">
                                 <textarea rows="4"></textarea>
                                 <button type="submit"><i class="icon ion-android-arrow-forward"></i></button>
                             </div>
                             <div class="Recipients_info_2Qot1" data-v-404281ee=""><input class="CSV-file-input" type="file" /></div>
-                            <span><a href="#" type="submit"></a></span>
+                            <span><a type="submit"></a></span>
                         </div>
                     </section>
                 </main>

@@ -23,7 +23,7 @@ class Vip2 extends React.Component {
                                             </ul>
                                         </div>
                                         <div class="btn">
-                                            <a href="#">GET BUY</a>
+                                            <a>GET BUY</a>
                                         </div>
                                     </div>
                                 </div>
@@ -40,7 +40,7 @@ class Vip2 extends React.Component {
                                             </ul>
                                         </div>
                                         <div class="btn">
-                                            <a href="#">GET BUY</a>
+                                            <a>GET BUY</a>
                                         </div>
                                     </div>
                                 </div>
@@ -57,7 +57,7 @@ class Vip2 extends React.Component {
                                             </ul>
                                         </div>
                                         <div class="btn">
-                                            <a href="#">GET BUY</a>
+                                            <a>GET BUY</a>
                                         </div>
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@ class Vip2 extends React.Component {
                                             </ul>
                                         </div>
                                         <div class="btn">
-                                            <a href="#">GET BUY</a>
+                                            <a>GET BUY</a>
                                         </div>
                                     </div>
                                 </div>

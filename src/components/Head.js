@@ -17,7 +17,7 @@ class Header extends React.Component {
                             <li class="nav__item"><Link to="/tutorialNft" className="nav__link">Tutorial</Link></li>
                             <li class="nav__item"><Link to="/faq" className="nav__link">FAQ</Link></li>
                             <li class="nav__item"><Link to="/" className="nav__link">ERC20</Link></li>
-                            <button class="button button3" style={{ marginLeft: "25px" }}><a href="#">CONNECT</a></button>
+                            <button class="button button3" style={{ marginLeft: "25px" }}><a>CONNECT</a></button>
                         </ul>
                     </nav>
                     <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>

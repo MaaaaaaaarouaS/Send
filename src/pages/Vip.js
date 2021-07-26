@@ -32,7 +32,7 @@ class Vip extends React.Component {
                                 <div class="rad-text">1month {'=>'} 6ETH</div>
                             </label>
                         </div>
-                        <span class="vip"><b href="#" type="submit"></b></span>
+                        <span class="vip"><b type="submit"></b></span>
                     </section>
                 </main>
             </div>

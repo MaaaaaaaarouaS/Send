@@ -32,7 +32,7 @@ class Tutorial extends React.Component {
                         <p>- token address</p>
                         <p>CSV - your list separated with</p>
                         <p>Example</p>
-                        <h4 class="linktuto" href="#">https://multisender.app/?
+                        <h4 class="linktuto">https://multisender.app/?
                             token=0x000000000000000000000000000000000000bEEF&csv=0x0
                             039f22efb07a647557c7c5d17854cfd6d489ef3,1\n0xC8c30Fa803833dD1Fd6DBCDd91Ed0b301EFf87c
                             F,2</h4>

@@ -17,7 +17,7 @@ class Profil extends React.Component {
                             </div><br />
                             <h1 class="ftitle">Refund funds</h1>
                             <p style={{ maxWidth: "50%", marginLeft: "25%" }} class="ftitle_text">Self generated balance ETH Address:</p>
-                            <span><a href="#" type="submit"></a></span><br />
+                            <span><a type="submit"></a></span><br />
                             <h1 class="ftitle">VIP status</h1>
                             <p style={{ maxWidth: "50%", marginLeft: "25%" }} class="ftitle_text">Until:none</p>
                         </div>

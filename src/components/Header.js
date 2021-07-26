@@ -19,8 +19,8 @@ class Header extends React.Component {
                             <li class="nav__item"><Link to="/analytics" className="nav__link">Analytics</Link></li>
                             <li class="nav__item"><Link to="/verification" className="nav__link">Verification</Link></li>
                             <li class="nav__item"><Link to="/profil" className="nav__link">Profile</Link></li>
-                            <button class="btnn button3" style={{ marginLeft: "20px" }}><a href="#"><i style={{ color: "#fff" }} class="material-icons">language</i></a></button>
-                            <button class="button button3"><a href="#">CONNECT</a></button>
+                            <button class="btnn button3" style={{ marginLeft: "20px" }}><a><i style={{ color: "#fff" }} class="material-icons">language</i></a></button>
+                            <button class="button button3"><a>CONNECT</a></button>
                         </ul>
                     </nav>
                     <ion-icon name="menu-outline" class="header__toggle" id="nav-toggle"></ion-icon>

@@ -38,8 +38,8 @@ class Nft extends React.Component {
                                 <textarea rows="4" />
                                 <button type="submit"><i class="icon ion-android-arrow-forward"></i></button>
                             </div>
-                            <div class="Recipients_info_2Qot1" data-v-404281ee=""><a class="showexample" href="#">Show example</a></div>
-                            <span><a href="#" type="submit"></a></span>
+                            <div class="Recipients_info_2Qot1" data-v-404281ee=""><a class="showexample">Show example</a></div>
+                            <span><a type="submit"></a></span>
                         </div>
                     </section>
                 </main>
