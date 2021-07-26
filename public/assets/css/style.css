@@ -43,6 +43,12 @@ header {
 .nav__list {
     display: flex;
     align-items: center;
+    margin-left: 20%;
+}
+.nav_list {
+  display: flex;
+  align-items: center;
+  margin-left: 50%;
 }
 
 .nav__item {

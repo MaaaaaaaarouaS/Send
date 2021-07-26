@@ -1,4 +1,4 @@
-const navMenu = document.getElementById('nav-menu'),
+/* const navMenu = document.getElementById('nav-menu'),
     toggleMenu = document.getElementById('nav-toggle'),
     closeMenu = document.getElementById('nav-close')
 
@@ -7,4 +7,4 @@ toggleMenu.addEventListener('click', () => {
 })
 closeMenu.addEventListener('click', () => {
     navMenu.classList.remove('show')
-})
+}) */

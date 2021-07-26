@@ -5,8 +5,8 @@ class Faq extends React.Component {
         return (
             <div>
                 <Head />
-                <main class="Main_layout_tdcXQ" data-v-30ced784="">
-                    <section class="faq">
+                <main className="Main_layout_tdcXQ" data-v-30ced784="">
+                    <section className="faq">
                         <h1 style={{ textAlign: "center" }}>FAQ</h1>
                         <details open>
                             <summary>SURPRISE? ERC-721 tokens?</summary>

@@ -5,21 +5,21 @@ class Profil extends React.Component {
         return (
             <div>
                 <Header />
-                <main class="Main" data-v-30ced784>
-                    <h1 class="ftitle">MultiSender Referral Program</h1>
-                    <p style={{ maxWidth: "50%", marginLeft: "25%" }} class="ftitle_text">Put your address below, click generate link and share the link with your referrals. You will earn 0.01 ETH from any airdrop done by your referral.</p>
-                    <section class="preparation_inputs_1qX9K">
-                        <div class="container">
-                            <label class="_base-input_label_3kGwW" data-v-404281ee="">Address</label>
-                            <div class="webflow-style-input">
+                <main className="Main" data-v-30ced784>
+                    <h1 className="ftitle">MultiSender Referral Program</h1>
+                    <p style={{ maxWidth: "50%", marginLeft: "25%" }} className="ftitle_text">Put your address below, click generate link and share the link with your referrals. You will earn 0.01 ETH from any airdrop done by your referral.</p>
+                    <section className="preparation_inputs_1qX9K">
+                        <div className="container">
+                            <label className="_base-input_label_3kGwW" data-v-404281ee="">Address</label>
+                            <div className="webflow-style-input">
                                 <input type="text" placeholder="select your token " />
-                                <button type="submit"><i class="icon ion-android-arrow-forward"></i></button>
+                                <button type="submit"><i className="icon ion-android-arrow-forward"></i></button>
                             </div><br />
-                            <h1 class="ftitle">Refund funds</h1>
-                            <p style={{ maxWidth: "50%", marginLeft: "25%" }} class="ftitle_text">Self generated balance ETH Address:</p>
+                            <h1 className="ftitle">Refund funds</h1>
+                            <p style={{ maxWidth: "50%", marginLeft: "25%" }} className="ftitle_text">Self generated balance ETH Address:</p>
                             <span><a type="submit"></a></span><br />
-                            <h1 class="ftitle">VIP status</h1>
-                            <p style={{ maxWidth: "50%", marginLeft: "25%" }} class="ftitle_text">Until:none</p>
+                            <h1 className="ftitle">VIP status</h1>
+                            <p style={{ maxWidth: "50%", marginLeft: "25%" }} className="ftitle_text">Until:none</p>
                         </div>
                     </section>
                 </main>

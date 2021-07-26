@@ -5,29 +5,29 @@ class Analytics extends React.Component {
         return (
             <div>
                 <Header />
-                <main class="Main" data-v-30ced784>
-                    <section class="preparation_inputs_1qX9K">
-                        <div class="contain group">
-                            <div class="grid-1-5">
+                <main className="Main" data-v-30ced784>
+                    <section className="preparation_inputs_1qX9K">
+                        <div className="contain group">
+                            <div className="grid-1-5">
                                 <h3><sup>$</sup>99 143 571,68</h3>
                                 <p>Total USD Volume Processed</p>
                             </div>
-                            <div class="grid-1-5">
+                            <div className="grid-1-5">
                                 <h3>1244 days</h3>
                                 <p>Uptime</p>
                             </div>
-                            <div class="grid-1-5">
+                            <div className="grid-1-5">
                                 <h3>Monday, November 11, 2019, 7:30 AM</h3>
                                 <p>Last time events parsed</p>
                             </div>
-                            <div class="grid-1-5">
+                            <div className="grid-1-5">
                                 <h3>565</h3>
                                 <p>Total number of tokens used multisender</p>
                             </div>
                         </div>
                     </section>
-                    <section class="analytics">
-                        <div class="tbl-header">
+                    <section className="analytics">
+                        <div className="tbl-header">
                             <table cellpadding="0" cellspacing="0" border="0">
                                 <thead>
                                     <tr>
@@ -40,7 +40,7 @@ class Analytics extends React.Component {
                                 </thead>
                             </table>
                         </div>
-                        <div class="tbl-content">
+                        <div className="tbl-content">
                             <table cellpadding="0" cellspacing="0" border="0">
                                 <tbody>
                                     <tr>
