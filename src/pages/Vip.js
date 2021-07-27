@@ -1,5 +1,21 @@
 import React from 'react';
 import Header from '../components/Header';
+const rad = {
+    radio: [
+        {
+            id: 1,
+            description: '1day => 1ETH',
+        },
+        {
+            id: 2,
+            description: '7days => 2ETH',
+        },
+        {
+            id: 3,
+            description: '1month => 6ETH',
+        },
+    ]
+};
 class Vip extends React.Component {
     render() {
         return (
@@ -14,23 +30,16 @@ class Vip extends React.Component {
                                 If you need additional information, feel free to ask in our Telegram channel. t.me/MultiSender</h1>
                         </div>
                         <div>
-                            <label className="rad-label">
-                                <input type="radio" className="rad-input" name="rad" />
-                                <div className="rad-design"></div>
-                                <div className="rad-text">1day {'=>'} 1ETH</div>
-                            </label>
-
-                            <label className="rad-label">
-                                <input type="radio" className="rad-input" name="rad" />
-                                <div className="rad-design"></div>
-                                <div className="rad-text">7days {'=>'} 2ETH</div>
-                            </label>
-
-                            <label className="rad-label">
-                                <input type="radio" className="rad-input" name="rad" />
-                                <div className="rad-design"></div>
-                                <div className="rad-text">1month {'=>'} 6ETH</div>
-                            </label>
+                            {
+                                rad.radio.map(rad => (
+                                    <label key={rad.id} className="rad-label">
+                                        <input type="radio" className="rad-input" name="rad" />
+                                        <div className="rad-design"></div>
+                                        <div className="rad-text">{rad.description}</div>
+                                    </label>
+                                )
+                                )
+                            }
                         </div>
                         <span className="vip"><b type="submit"></b></span>
                     </section>

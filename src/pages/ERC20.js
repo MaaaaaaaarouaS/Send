@@ -1,60 +1,69 @@
 import React from 'react';
 import Header from '../components/Header';
+import Stepper from '../components/Stepper';
+const net = {
+    network: [
+        {
+            id: 1,
+            name: 'Ethereum Mainnet',
+            icon: 'network-icon network-icon-mainnet',
+        },
+        {
+            id: 2,
+            name: 'Binance Smart Chain',
+            icon: 'network-icon network-icon-binance',
+        },
+        {
+            id: 3,
+            name: 'Avalanche C Chain',
+            icon: 'network-icon network-icon-avalanche',
+        },
+        {
+            id: 4,
+            name: 'Fantom Opera',
+            icon: 'network-icon network-icon-fantom',
+        },
+        {
+            id: 5,
+            name: 'IoTeX',
+            icon: 'network-icon network-icon-iotex',
+        },
+        {
+            id: 6,
+            name: 'Matic Network',
+            icon: 'network-icon network-icon-matic',
+        },
+        {
+            id: 7,
+            name: 'POA Network',
+            icon: 'network-icon network-icon-poa',
+        },
+        {
+            id: 8,
+            name: 'xDai',
+            icon: 'network-icon network-icon-xdai',
+        },
+    ]
+};
 class ERC20 extends React.Component {
     render() {
         return (
             <div>
                 <Header />
                 <main className="Main" data-v-30ced784>
-                    <div className="View_wrap_1OgEa">
-                        <ul className="Stepper_list_2y0f2">
-                            <li className="Stepper_list__item_Ua5YM X">
-                                <span className="Stepper_list__marker_pKk08"></span>
-                                <span className="Stepper_list__itemTitle_1ql1S">preparation</span>
-                            </li>
-                            <li className="Stepper_list__item_Ua5YM Stepper_hereafter_2CKHf">
-                                <span className="Stepper_list__marker_pKk08"></span>
-                                <span className="Stepper_list__itemTitle_1ql1S">approval</span>
-                            </li>
-                            <li className="Stepper_list__item_Ua5YMN Stepper_hereafter_2CKHf">
-                                <span className="Stepper_list__marker_pKk08"></span>
-                                <span className="Stepper_list__itemTitle_1ql1S">distribution</span>
-                            </li>
-                        </ul>
-                    </div>
+                    <Stepper />
                     <h1 className="ftitle">Welcome to Token SurpriSender</h1>
                     <p className="ftitle_text">A tool that allows you to batch send ERC20 tokens</p>
                     <div className="networks">
-                        <div className="network">
-                            <div className="network-icon network-icon-mainnet"></div>
-                            <div className="network-name">Ethereum Mainnet</div>
-                        </div>
-                        <div className="network">
-                            <div className="network-icon network-icon-binance"></div>
-                            <div className="network-name">Binance Smart Chain</div>
-                        </div>
-                        <div className="network"><div className="network-icon network-icon-avalanche"></div>
-                            <div className="network-name">Avalanche C Chain</div>
-                        </div>
-                        <div className="network">
-                            <div className="network-icon network-icon-fantom"></div>
-                            <div className="network-name">Fantom Opera</div>
-                        </div>
-                        <div className="network">
-                            <div className="network-icon network-icon-iotex"></div>
-                            <div className="network-name">IoTeX</div>
-                        </div>
-                        <div className="network"><div className="network-icon network-icon-matic"></div>
-                            <div className="network-name">Matic Network</div>
-                        </div>
-                        <div className="network">
-                            <div className="network-icon network-icon-poa"></div>
-                            <div className="network-name">POA Network</div>
-                        </div>
-                        <div className="network">
-                            <div className="network-icon network-icon-xdai"></div>
-                            <div className="network-name">xDai</div>
-                        </div>
+                        {
+                            net.network.map(net => (
+                                <div key={net.id} className="network">
+                                    <div className={net.icon}></div>
+                                    <div className="network-name">{net.name}</div>
+                                </div>
+                            )
+                            )
+                        }
                     </div>
                     <section className="preparation_inputs_1qX9K">
                         <div className="container">
@@ -74,10 +83,10 @@ class ERC20 extends React.Component {
                             <label className="_base-input_label_3kGwW" data-v-404281ee="">Token address</label>
                             <div className="webflow-style-input">
                                 <input type="text" placeholder="select your token " />
-                                <button type="submit"><i className="icon ion-android-arrow-forward"></i></button>
+                                <button><i className="icon ion-android-arrow-forward"></i></button>
                             </div><br />
                             <div className="Recipients_info_2Qot1" data-v-404281ee=""><label className="_base-input_label_3kGwW" data-v-404281ee="">List of Addresses in CSV</label><a className="ExampleCSV">Show Example CSV</a></div>
-                            <div className="demo-flex-spacer"></div>
+
                             <div className="webflow-style-input">
                                 <textarea rows="4"></textarea>
                                 <button type="submit"><i className="icon ion-android-arrow-forward"></i></button>
