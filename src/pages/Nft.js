@@ -10,7 +10,7 @@ class Nft extends React.Component {
                     <Stepper />
                     <h1 className="ftitle">Welcome to SurpriSender</h1>
                     <p className="ftitle_text">A tool that allows you to conveniently send your SURPRISE tokens to multiple recipients.</p>
-                    <section className="preparation_inputs_1qX9K">
+                    <section style={{ marginBottom: "-5%" }} className="preparation_inputs_1qX9K">
                         <div className="container">
                             <label className="_base-input_label_3kGwW" data-v-404281ee="">Token address</label>
                             <div className="webflow-style-input">
@@ -24,7 +24,9 @@ class Nft extends React.Component {
                                 <button type="submit"><i className="icon ion-android-arrow-forward"></i></button>
                             </div>
                             <div className="Recipients_info_2Qot1" data-v-404281ee=""><a className="showexample">Show example</a></div>
-                            <span><a type="submit"></a></span>
+                            <div align="center">
+                                <span><a type="submit"></a></span>
+                            </div>
                         </div>
                     </section>
                 </main>

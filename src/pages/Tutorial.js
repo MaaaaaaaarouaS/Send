@@ -8,9 +8,11 @@ class Tutorial extends React.Component {
                 <main className="Main_layout_tdcXQ" data-v-30ced784="">
                     <h1 className="ftitle">Video</h1>
                     <section className="vip_vip_2tBnK" data-v-33f90f42="">
-                        <iframe width="600" height="355"
-                            src="https://www.youtube.com/embed/tgbNymZ7vqY">
-                        </iframe>
+                        <div align="center">
+                            <iframe width="600" height="355"
+                                src="https://www.youtube.com/embed/tgbNymZ7vqY">
+                            </iframe>
+                        </div>
                         <h1 className="ftitle">How to send ERC20 tokens to multiple addresses</h1>
                         <h3>Airdrop of ERC20 token with self-generated key:Select Ethereum Mainnet in wallet</h3><span className="vertical-line"></span>
                         <h3>Wait for token balances to load</h3><span className="vertical-line"></span>

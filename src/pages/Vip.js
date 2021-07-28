@@ -41,7 +41,9 @@ class Vip extends React.Component {
                                 )
                             }
                         </div>
-                        <span className="vip"><b type="submit"></b></span>
+                        <div align="center">
+                            <span><b type="submit"></b></span>
+                        </div>
                     </section>
                 </main>
             </div>

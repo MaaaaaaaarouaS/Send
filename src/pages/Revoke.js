@@ -7,8 +7,8 @@ class Revoke extends React.Component {
                 <Header />
                 <main className="Main" data-v-30ced784>
                     <h1 className="ftitle">Revoke</h1>
-                    <p style={{ maxWidth: "50%", marginLeft: "25%" }} className="ftitle_text">If you want to remove current approval to multisender smart contract, please select token address and click Revoke button. This will set allowance to 0</p>
-                    <section className="preparation_inputs_1qX9K">
+                    <p className="ftitle_text">If you want to remove current approval to multisender smart contract, please select token address and click Revoke button. This will set allowance to 0.</p>
+                    <section style={{ marginBottom: "-5%" }} className="preparation_inputs_1qX9K">
                         <div className="container">
                             <label className="_base-input_label_3kGwW" data-v-404281ee="">Token address</label>
                             <div className="webflow-style-input">
@@ -21,7 +21,7 @@ class Revoke extends React.Component {
                                 <input type="radio" name="select" id="opt-2" />
                                 <label htmlFor="opt-1" className="option opt-1">
                                     <div className="dot"></div>
-                                    <span>Puch</span>
+                                    <span>Push</span>
                                 </label>
                                 <label htmlFor="opt-2" className="option opt-2">
                                     <div className="dot"></div>
@@ -29,7 +29,9 @@ class Revoke extends React.Component {
                                 </label>
                             </div>
                             <h1 className="rtitle">Your current multisender approval</h1>
-                            <span><a type="submit"></a></span>
+                            <div align="center">
+                                <span><a type="submit"></a></span>
+                            </div>
                         </div>
                     </section>
                 </main>

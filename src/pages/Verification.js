@@ -29,7 +29,9 @@ class Verification extends React.Component {
                                 <button type="submit"><i className="icon ion-android-arrow-forward"></i></button>
                             </div>
                             <div className="Recipients_info_2Qot1" data-v-404281ee=""><input className="CSV-file-input" type="file" /></div>
-                            <span><a type="submit"></a></span>
+                            <div align="center">
+                                <span><a type="submit"></a></span>
+                            </div>
                         </div>
                     </section>
                 </main>

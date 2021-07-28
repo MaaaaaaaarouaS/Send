@@ -5,7 +5,7 @@ class Footer extends React.Component {
         return (
             <div>
                 <footer className="row center">
-                    <div className="logo"><img src="./assets/img/SurpRise.gif" alt="" /></div>
+                    <div align="center"><img src="./assets/img/SurpRise.gif" alt="" /></div>
                 </footer>
             </div>
 
